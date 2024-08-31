@@ -8,8 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-    <!-- font awesome -->
-    <script src="https://kit.fontawesome.com/4e532f8ca2.js" crossorigin="anonymous"></script>
+    
     <!-- Tailwind css cdn -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -23,10 +22,81 @@
           }
         }
       </script>
+      <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/4e532f8ca2.js" crossorigin="anonymous"></script>
 
 
 </head>
 <body>
-    
+    <!-- main content -->
+     <main class="max-w-screen-xl mx-auto lg:px-28">
+        <!-- header start here  -->
+         <header class="lg:flex mx-auto">
+            <!-- text content -->
+             <div>
+                <h1 class="text-5xl md:text-7xl lg:text-9xl">It's good <br>tea time at The <br>Tea House</h1>
+                <p class="text-gray-400"> Lorem ipsum dolor sit amet  consectetur, adipisicing <br>elit. Reiciendis, veritatis.</p>
+                <button class="bg-gradient-to-r from bg-orange-300 to-orange-800 px-6 py-3 rounded-xl text-white font-bold">Explere More <i class="fa-thin fa-arrow-right"></i></button>
+
+             </div>
+             <!-- image content -->
+              <div class="relative">
+                <img class="mt-16 w-full" src="./images/banner.png" alt="">
+
+              </div>
+              <!-- card  -->
+               <div class="bg-slate-50 shadow-gray-200 px-3 py-2 lg:text-2xl flex items-center gap-4 rounded-lg bottom-72 right-16 absolute">
+                <div><i class="fa-solid fa-star"></i></div>
+                <div >
+                    <h2>4.5</h2>
+                    <p>Trust pilot Ratings</p>
+                </div>
+               </div>
+         </header>
+         <!-- featured product section -->
+          <section class="py-8 lg:py-24">
+            <!-- title -->
+             <div class="text-center mb-8">
+                <h1 class="text-3xl md:text-5xl font-bold mb-2 ">Our Featured Product</h1>
+                <p class="text-gray-800 mx-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, cumque?Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+             </div>
+
+          </section>
+
+          <!-- featured not completed -->
+
+          <!-- great tea section start -->
+           <section class="mb-24">
+            <div class="grid grid-cols-1 lg:grid-cols-2">
+                <!-- img section -->
+                 <div class="grid grid-cols-2 grid-rows-3 gap-4 lg:w-5/6">
+                    <div class="h-38 bg-gradient-to-r from-red-100 to-red-50 rounded-xl"></div>
+                    <div class="bg-red-50 rounded-xl row-span-2 ">
+                        <img class="mx-auto" src="./images/fresh-1.png" alt="">
+                    </div>
+                    <div class="bg-stone-200 rounded-xl row-span-2 ">
+                        <img class="mx-auto" src="./images/fresh-2.png" alt="">
+                    </div>
+                    <div class="h-38 bg-gradient-to-r from-stone-100 to-stone-50 rounded-xl"></div>
+                    
+
+                 </div>
+                 <!-- text section -->
+                  <div>
+                    <h1 class="font-bold text-2xl lg:4xl ">Great Tea, Freshly Presented</h1>
+                    <p class="text-gray-600 overflow-y-hidden">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p> 
+                    <br>
+                    <h3 class="text-lg font-semibold" >Unique taste</h3>
+                    <p class="">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <br>
+                    <h3 class="font-semibold text-lg">premium Quality</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, autem?</p>
+
+                  </div>
+
+            </div>
+
+           </section>
+     </main>
 </body>
 </html>
